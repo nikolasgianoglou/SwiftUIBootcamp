@@ -13,6 +13,7 @@
 		F811CB812982CD4F00C66DB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F811CB802982CD4F00C66DB2 /* Preview Assets.xcassets */; };
 		F811CB882982D6B800C66DB2 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F811CB872982D6B800C66DB2 /* TextView.swift */; };
 		F811CB8A2983074B00C66DB2 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F811CB892983074B00C66DB2 /* ShapesView.swift */; };
+		F87463352983123B006E7DA8 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87463342983123B006E7DA8 /* ColorsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F811CB802982CD4F00C66DB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F811CB872982D6B800C66DB2 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		F811CB892983074B00C66DB2 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		F87463342983123B006E7DA8 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				F811CB7D2982CD4F00C66DB2 /* Assets.xcassets */,
 				F811CB7F2982CD4F00C66DB2 /* Preview Content */,
 				F811CB872982D6B800C66DB2 /* TextView.swift */,
+				F87463342983123B006E7DA8 /* ColorsView.swift */,
 			);
 			path = SwiftUIBootcamp;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				F811CB7C2982CD4D00C66DB2 /* ContentView.swift in Sources */,
 				F811CB882982D6B800C66DB2 /* TextView.swift in Sources */,
+				F87463352983123B006E7DA8 /* ColorsView.swift in Sources */,
 				F811CB8A2983074B00C66DB2 /* ShapesView.swift in Sources */,
 				F811CB7A2982CD4D00C66DB2 /* SwiftUIBootcampApp.swift in Sources */,
 			);
