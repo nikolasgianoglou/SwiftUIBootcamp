@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F80E0B352994285000E76A92 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80E0B342994285000E76A92 /* ImageView.swift */; };
+		F80E0B37299438FA00E76A92 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80E0B36299438FA00E76A92 /* FrameView.swift */; };
 		F811CB7A2982CD4D00C66DB2 /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F811CB792982CD4D00C66DB2 /* SwiftUIBootcampApp.swift */; };
 		F811CB7C2982CD4D00C66DB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F811CB7B2982CD4D00C66DB2 /* ContentView.swift */; };
 		F811CB7E2982CD4F00C66DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F811CB7D2982CD4F00C66DB2 /* Assets.xcassets */; };
@@ -14,9 +16,14 @@
 		F811CB882982D6B800C66DB2 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F811CB872982D6B800C66DB2 /* TextView.swift */; };
 		F811CB8A2983074B00C66DB2 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F811CB892983074B00C66DB2 /* ShapesView.swift */; };
 		F87463352983123B006E7DA8 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87463342983123B006E7DA8 /* ColorsView.swift */; };
+		F89B5995298AB58D000F5D12 /* GradientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B5994298AB58D000F5D12 /* GradientsView.swift */; };
+		F89B599B298ADB6B000F5D12 /* IconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89B599A298ADB6B000F5D12 /* IconsView.swift */; };
+		F8AD4C4429954AD0003EAF02 /* BackgroundAndOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AD4C4329954AD0003EAF02 /* BackgroundAndOverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F80E0B342994285000E76A92 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		F80E0B36299438FA00E76A92 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 		F811CB762982CD4D00C66DB2 /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F811CB792982CD4D00C66DB2 /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		F811CB7B2982CD4D00C66DB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +32,9 @@
 		F811CB872982D6B800C66DB2 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		F811CB892983074B00C66DB2 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 		F87463342983123B006E7DA8 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
+		F89B5994298AB58D000F5D12 /* GradientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsView.swift; sourceTree = "<group>"; };
+		F89B599A298ADB6B000F5D12 /* IconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsView.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		F8AD4C4329954AD0003EAF02 /* BackgroundAndOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +70,15 @@
 				F811CB892983074B00C66DB2 /* ShapesView.swift */,
 				F811CB792982CD4D00C66DB2 /* SwiftUIBootcampApp.swift */,
 				F811CB7B2982CD4D00C66DB2 /* ContentView.swift */,
-				F811CB7D2982CD4F00C66DB2 /* Assets.xcassets */,
-				F811CB7F2982CD4F00C66DB2 /* Preview Content */,
 				F811CB872982D6B800C66DB2 /* TextView.swift */,
 				F87463342983123B006E7DA8 /* ColorsView.swift */,
+				F89B5994298AB58D000F5D12 /* GradientsView.swift */,
+				F89B599A298ADB6B000F5D12 /* IconsView.swift */,
+				F80E0B342994285000E76A92 /* ImageView.swift */,
+				F80E0B36299438FA00E76A92 /* FrameView.swift */,
+				F8AD4C4329954AD0003EAF02 /* BackgroundAndOverlayView.swift */,
+				F811CB7D2982CD4F00C66DB2 /* Assets.xcassets */,
+				F811CB7F2982CD4F00C66DB2 /* Preview Content */,
 			);
 			path = SwiftUIBootcamp;
 			sourceTree = "<group>";
@@ -146,11 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80E0B352994285000E76A92 /* ImageView.swift in Sources */,
 				F811CB7C2982CD4D00C66DB2 /* ContentView.swift in Sources */,
 				F811CB882982D6B800C66DB2 /* TextView.swift in Sources */,
+				F80E0B37299438FA00E76A92 /* FrameView.swift in Sources */,
 				F87463352983123B006E7DA8 /* ColorsView.swift in Sources */,
 				F811CB8A2983074B00C66DB2 /* ShapesView.swift in Sources */,
+				F89B5995298AB58D000F5D12 /* GradientsView.swift in Sources */,
+				F89B599B298ADB6B000F5D12 /* IconsView.swift in Sources */,
 				F811CB7A2982CD4D00C66DB2 /* SwiftUIBootcampApp.swift in Sources */,
+				F8AD4C4429954AD0003EAF02 /* BackgroundAndOverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
